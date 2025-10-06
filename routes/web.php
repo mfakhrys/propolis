@@ -9,6 +9,7 @@ Route::view('/kesehatan-kulit', 'landing.kesehatan-kulit');
 Route::view('/kesehatan-mulut', 'landing.kesehatan-mulut');
 Route::view('/meredakan-alergi', 'landing.meredakan-alergi');
 Route::view('/penyembuhan-luka', 'landing.penyembuhan-luka');
+Route::view('/diabetes', 'landing.diabetes');
 
 // Checkout
 Route::view('/checkout', 'checkout');

@@ -1,17 +1,15 @@
 @extends('layouts.landing')
 
-@section('title', 'British Propolis untuk Dukungan Sistem Imun - Tingkatkan Daya Tahan Tubuh Alami')
-@section('meta_description', 'British Propolis terbukti meningkatkan sistem imun dan daya tahan tubuh. Melindungi dari
-    virus, bakteri, dan infeksi. Aman untuk keluarga. Pesan sekarang!')
-@section('meta_keywords', 'british propolis sistem imun, propolis daya tahan tubuh, meningkatkan imunitas, propolis
-    antibakteri, propolis antiviral, sistem kekebalan tubuh, propolis untuk imun')
+@section('title', 'British Propolis & Dukungan Sistem Imun - Informasi Edukatif')
+@section('meta_description', 'Potensi senyawa bioaktif propolis (flavonoid, fenolik) dalam modulasi inflamasi &
+    antioksidan yang dapat mendukung fungsi imun sehat. Bukan terapi medis.')
+@section('meta_keywords', 'propolis dukungan imun, flavonoid, antioksidan, edukasi sistem imun, modulasi inflamasi')
 
-@section('og_title', 'British Propolis - Tingkatkan Sistem Imun & Daya Tahan Tubuh Alami')
-@section('og_description', 'Propolis premium dari Inggris untuk meningkatkan sistem imun keluarga. Terbukti melindungi
-    dari virus dan bakteri. Garansi uang kembali!')
-@section('twitter_title', 'British Propolis untuk Sistem Imun Kuat')
-@section('twitter_description', 'Tingkatkan daya tahan tubuh dengan British Propolis premium. Melindungi keluarga dari
-    penyakit.')
+@section('og_title', 'British Propolis - Dukungan Gaya Hidup Imun')
+@section('og_description', 'Flavonoid & antioksidan propolis: potensi mendukung fungsi imun seimbang. Informasi
+    edukatif.')
+@section('twitter_title', 'Dukungan Propolis untuk Imun (Edukasi)')
+@section('twitter_description', 'Potensi bioaktif propolis dalam konteks pola hidup sehat. Bukan klaim kuratif.')
 
 @section('hero')
     <section class="relative bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden">
@@ -21,18 +19,18 @@
                 <div>
                     <div
                         class="inline-flex items-center bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold mb-6">
-                        🛡️ Perlindungan Sistem Imun
+                        ℹ️ Edukasi Sistem Imun
                     </div>
-                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                        Tingkatkan <span class="text-blue-600">Sistem Imun</span> dengan British Propolis
-                    </h1>
-                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">
-                        Lindungi keluarga Anda dari virus, bakteri, dan infeksi dengan British Propolis premium.
-                        Terbukti secara klinis meningkatkan daya tahan tubuh hingga 300% lebih kuat.
-                    </p>
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">Dukungan <span
+                            class="text-blue-600"
+                        >Fungsi Imun Sehat</span> dengan Propolis</h1>
+                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">Informasi tentang bagaimana komponen propolis
+                        (flavonoid, asam fenolik, antioksidan) telah dipelajari secara pra-klinis dan dalam beberapa studi
+                        manusia kecil terkait dukungan keseimbangan respon imun. Tidak ada klaim peningkatan persentase
+                        tertentu.</p>
 
                     <div class="bg-white rounded-lg p-6 shadow-lg mb-8">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">✅ Manfaat untuk Sistem Imun:</h3>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">✅ Topik Edukatif Terkait Imun:</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center">
                                 <svg
@@ -46,7 +44,7 @@
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                Meningkatkan produksi sel darah putih
+                                Dukungan respon inflamasi seimbang (data awal)
                             </li>
                             <li class="flex items-center">
                                 <svg
@@ -60,7 +58,7 @@
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                Melawan bakteri dan virus berbahaya
+                                Aktivitas antimikroba in vitro (relevansi klinis masih diteliti)
                             </li>
                             <li class="flex items-center">
                                 <svg
@@ -74,7 +72,7 @@
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                Mengurangi risiko infeksi berulang
+                                Pola hidup sehat tetap faktor utama pencegahan infeksi
                             </li>
                             <li class="flex items-center">
                                 <svg
@@ -88,7 +86,7 @@
                                         clip-rule="evenodd"
                                     />
                                 </svg>
-                                Mempercepat pemulihan saat sakit
+                                Fokus: nutrisi, tidur, gerak, manajemen stres
                             </li>
                         </ul>
                     </div>
@@ -132,11 +130,10 @@
                                 class="w-32 h-40 bg-blue-600 rounded-lg mx-auto mb-6 flex items-center justify-center shadow-lg">
                                 <span class="text-white text-xs font-bold">BRITISH<br>PROPOLIS<br>🛡️</span>
                             </div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Perlindungan Maksimal</h3>
-                            <p class="text-gray-600 mb-4">Untuk sistem imun yang kuat</p>
-                            <div class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
-                                ✅ Teruji Klinis
-                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Profil Bioaktif</h3>
+                            <p class="text-gray-600 mb-4">Antioksidan & senyawa fenolik (studi pra-klinis)</p>
+                            <div class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Data
+                                Berkembang</div>
                         </div>
                     </div>
                     <div class="absolute -top-4 -right-4 w-24 h-24 bg-blue-200 rounded-full opacity-60"></div>
@@ -156,10 +153,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Apakah Anda Mengalami Masalah Ini?
+                    Apakah Ini Tantangan Gaya Hidup Anda?
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Sistem imun yang lemah menyebabkan berbagai masalah kesehatan yang mengganggu aktivitas sehari-hari
+                    Faktor gaya hidup dapat mempengaruhi ketahanan tubuh. Berikut contoh situasi umum.
                 </p>
             </div>
 
@@ -287,17 +284,9 @@
             </div>
 
             <div class="bg-gradient-to-r from-red-500 to-pink-600 rounded-2xl p-8 text-white text-center">
-                <h3 class="text-2xl font-bold mb-4">⚠️ BAHAYA Sistem Imun Lemah!</h3>
-                <p class="text-xl mb-6">
-                    Sistem imun yang lemah dapat menyebabkan komplikasi serius dan biaya pengobatan yang mahal.
-                    Lindungi keluarga Anda sekarang juga!
-                </p>
-                <a
-                    href="{{ url('/checkout') }}"
-                    class="bg-white text-red-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 inline-block"
-                >
-                    Lindungi Keluarga Sekarang
-                </a>
+                <h3 class="text-2xl font-bold mb-4">ℹ️ Catatan</h3>
+                <p class="text-xl mb-6">Menjaga pola makan, aktivitas fisik, tidur cukup, dan kebersihan tetap pondasi
+                    dukungan fungsi imun. Suplemen bersifat opsional.</p>
             </div>
         </div>
     </section>
@@ -314,17 +303,17 @@
                     🧬 Dukungan Ilmiah
                 </div>
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    British Propolis: Solusi Alami untuk Sistem Imun Kuat
+                    British Propolis: Potensi Bioaktif & Imun (Edukasi)
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Dengan kandungan flavonoid, asam fenolik, dan senyawa bioaktif lainnya, British Propolis terbukti secara
-                    klinis meningkatkan sistem kekebalan tubuh
+                    Flavonoid & fenolik telah diteliti dalam model laboratorium dan sebagian studi manusia kecil terkait
+                    modulasi respon imun. Bukti masih berkembang dan tidak menggantikan intervensi medis.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
                 <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">🔬 Penelitian Medis Membuktikan:</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">🔬 Ringkasan Penelitian (Berkembang):</h3>
                     <div class="space-y-6">
                         <div class="bg-white rounded-lg p-6 shadow-lg">
                             <div class="flex items-center mb-4">
@@ -341,10 +330,10 @@
                                         />
                                     </svg>
                                 </div>
-                                <h4 class="text-lg font-semibold text-gray-900">Meningkatkan Aktivitas Sel T</h4>
+                                <h4 class="text-lg font-semibold text-gray-900">Modulasi Sel Imun (Data Awal)</h4>
                             </div>
-                            <p class="text-gray-700">Propolis meningkatkan aktivitas sel T helper dan sel T sitotoksik
-                                hingga 250%, memperkuat respons imun terhadap patogen.</p>
+                            <p class="text-gray-700">Beberapa studi non-luas menunjukkan perubahan parameter seluler; angka
+                                spesifik bervariasi dan tidak konklusif.</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-6 shadow-lg">
@@ -358,10 +347,10 @@
                                         <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 </div>
-                                <h4 class="text-lg font-semibold text-gray-900">Stimulasi Makrofag</h4>
+                                <h4 class="text-lg font-semibold text-gray-900">Aktivitas Fagositosis (Pra-Klinis)</h4>
                             </div>
-                            <p class="text-gray-700">Mengaktifkan makrofag untuk "memakan" bakteri, virus, dan sel-sel
-                                rusak yang dapat membahayakan tubuh.</p>
+                            <p class="text-gray-700">Pengamatan in vitro / in vivo hewan—implementasi klinis masih
+                                diteliti.</p>
                         </div>
 
                         <div class="bg-white rounded-lg p-6 shadow-lg">
@@ -379,56 +368,28 @@
                                         />
                                     </svg>
                                 </div>
-                                <h4 class="text-lg font-semibold text-gray-900">Produksi Antibodi</h4>
+                                <h4 class="text-lg font-semibold text-gray-900">Parameter Antibodi (Terbatas)</h4>
                             </div>
-                            <p class="text-gray-700">Merangsang sel B untuk memproduksi antibodi spesifik yang melawan
-                                infeksi dengan lebih efektif.</p>
+                            <p class="text-gray-700">Beberapa laporan perubahan titer pada skala kecil; perlu studi
+                                terkontrol lebih besar.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="relative">
                     <div class="bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl p-8">
-                        <h4 class="text-xl font-bold text-gray-900 mb-6 text-center">📊 Hasil Uji Klinis</h4>
+                        <h4 class="text-xl font-bold text-gray-900 mb-6 text-center">📊 Visual Edukatif (Tanpa Persentase
+                            Aktual)</h4>
                         <div class="space-y-4">
-                            <div class="bg-white rounded-lg p-4">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-gray-700 font-medium">Peningkatan Sel Darah Putih</span>
-                                    <span class="text-blue-600 font-bold">+89%</span>
-                                </div>
-                                <div class="w-full bg-gray-200 rounded-full h-3">
-                                    <div
-                                        class="bg-blue-600 h-3 rounded-full"
-                                        style="width: 89%"
-                                    ></div>
-                                </div>
-                            </div>
+                            <div class="bg-white rounded-lg p-4 text-sm text-gray-600">Contoh parameter laboratorium (WBC,
+                                diferensial) dapat berubah karena banyak faktor: nutrisi, tidur, stres, infeksi. Angka
+                                spesifik tidak ditampilkan.</div>
 
-                            <div class="bg-white rounded-lg p-4">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-gray-700 font-medium">Pengurangan Infeksi</span>
-                                    <span class="text-green-600 font-bold">-76%</span>
-                                </div>
-                                <div class="w-full bg-gray-200 rounded-full h-3">
-                                    <div
-                                        class="bg-green-600 h-3 rounded-full"
-                                        style="width: 76%"
-                                    ></div>
-                                </div>
-                            </div>
+                            <div class="bg-white rounded-lg p-4 text-sm text-gray-600">Pencegahan infeksi menitikberatkan
+                                vaksinasi, kebersihan, dan gaya hidup — propolis bukan pengganti.</div>
 
-                            <div class="bg-white rounded-lg p-4">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-gray-700 font-medium">Percepatan Pemulihan</span>
-                                    <span class="text-purple-600 font-bold">+65%</span>
-                                </div>
-                                <div class="w-full bg-gray-200 rounded-full h-3">
-                                    <div
-                                        class="bg-purple-600 h-3 rounded-full"
-                                        style="width: 65%"
-                                    ></div>
-                                </div>
-                            </div>
+                            <div class="bg-white rounded-lg p-4 text-sm text-gray-600">Durasi pemulihan dipengaruhi
+                                kompleksitas penyakit & kondisi individu.</div>
                         </div>
                     </div>
                 </div>
@@ -436,86 +397,15 @@
 
             <!-- Perbandingan -->
             <div class="bg-white rounded-2xl p-8 shadow-xl">
-                <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Perbandingan: Sebelum vs Sesudah British
-                    Propolis</h3>
+                <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Contoh Persepsi Pengguna (Subjektif)</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-red-50 border-2 border-red-200 rounded-xl p-6">
-                        <h4 class="text-lg font-bold text-red-800 mb-4 flex items-center">
-                            <svg
-                                class="w-6 h-6 mr-2"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                                    clip-rule="evenodd"
-                                />
-                            </svg>
-                            Sebelum Menggunakan
-                        </h4>
-                        <ul class="space-y-3 text-red-700">
-                            <li class="flex items-start">
-                                <span class="text-red-500 mr-2">❌</span>
-                                Sakit 8-12 kali per tahun
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-red-500 mr-2">❌</span>
-                                Pemulihan 7-14 hari
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-red-500 mr-2">❌</span>
-                                Mudah tertular dari orang lain
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-red-500 mr-2">❌</span>
-                                Sering mengonsumsi antibiotik
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-red-500 mr-2">❌</span>
-                                Energi rendah dan mudah lelah
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="bg-red-50 border-2 border-red-200 rounded-xl p-6 text-sm text-gray-700">Pengalaman sebelum
+                        menggunakan suplemen seringkali mencerminkan pola tidur kurang, stres tinggi, nutrisi kurang
+                        seimbang.</div>
 
-                    <div class="bg-green-50 border-2 border-green-200 rounded-xl p-6">
-                        <h4 class="text-lg font-bold text-green-800 mb-4 flex items-center">
-                            <svg
-                                class="w-6 h-6 mr-2"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"
-                                />
-                            </svg>
-                            Setelah British Propolis
-                        </h4>
-                        <ul class="space-y-3 text-green-700">
-                            <li class="flex items-start">
-                                <span class="text-green-500 mr-2">✅</span>
-                                Sakit hanya 2-3 kali per tahun
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-green-500 mr-2">✅</span>
-                                Pemulihan 2-4 hari
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-green-500 mr-2">✅</span>
-                                Tahan terhadap penularan
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-green-500 mr-2">✅</span>
-                                Mengurangi ketergantungan obat
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-green-500 mr-2">✅</span>
-                                Energi stabil dan stamina kuat
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="bg-green-50 border-2 border-green-200 rounded-xl p-6 text-sm text-gray-700">Perubahan
+                        positif biasanya terkait kombinasi gaya hidup (makan, tidur, olahraga, reduksi stres). Suplemen
+                        bukan satu-satunya faktor.</div>
                 </div>
             </div>
         </div>
@@ -525,12 +415,9 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Bagaimana British Propolis Bekerja untuk Sistem Imun?
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Proses ilmiah yang terjadi dalam tubuh ketika mengonsumsi British Propolis
-                </p>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Kemungkinan Mekanisme (Model Penelitian)</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Berikut gambaran konseptual berdasarkan literatur
+                    pra-klinis; bukan deskripsi pasti yang terjadi pada setiap individu.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -539,9 +426,9 @@
                         class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-200 transition-colors">
                         <span class="text-2xl font-bold text-blue-600">1</span>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Penyerapan Cepat</h3>
-                    <p class="text-gray-600">Senyawa bioaktif propolis diserap dengan cepat melalui mukosa mulut dan masuk
-                        ke aliran darah dalam 15-30 menit.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Penyerapan</h3>
+                    <p class="text-gray-600">Komponen larut dapat memasuki sirkulasi; kecepatan & bioavailabilitas
+                        dipengaruhi banyak faktor.</p>
                 </div>
 
                 <div class="text-center group">
@@ -549,9 +436,8 @@
                         class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-green-200 transition-colors">
                         <span class="text-2xl font-bold text-green-600">2</span>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Aktivasi Sel Imun</h3>
-                    <p class="text-gray-600">Flavonoid dan asam fenolik mengaktifkan sel-sel kekebalan tubuh di sumsum
-                        tulang, limpa, dan kelenjar getah bening.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Modulasi Seluler</h3>
+                    <p class="text-gray-600">Beberapa data menunjukkan modulasi jalur inflamasi dalam model eksperimen.</p>
                 </div>
 
                 <div class="text-center group">
@@ -559,9 +445,8 @@
                         class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-purple-200 transition-colors">
                         <span class="text-2xl font-bold text-purple-600">3</span>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Produksi Antibodi</h3>
-                    <p class="text-gray-600">Sistem imun mulai memproduksi lebih banyak sel darah putih, antibodi, dan
-                        protein antimikroba alami.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Respons Humoral</h3>
+                    <p class="text-gray-600">Observasi awal perubahan parameter humoral tidak seragam antar studi.</p>
                 </div>
 
                 <div class="text-center group">
@@ -569,9 +454,8 @@
                         class="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-200 transition-colors">
                         <span class="text-2xl font-bold text-amber-600">4</span>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Perlindungan Aktif</h3>
-                    <p class="text-gray-600">Tubuh memiliki daya tahan kuat untuk melawan virus, bakteri, dan patogen
-                        lainnya secara proaktif.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Keseimbangan</h3>
+                    <p class="text-gray-600">Tujuan utama: keseimbangan, bukan hiper-stimulasi sistem imun.</p>
                 </div>
             </div>
         </div>
@@ -581,12 +465,9 @@
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Kandungan Aktif yang Memperkuat Sistem Imun
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    British Propolis mengandung lebih dari 300 senyawa bioaktif yang telah diteliti manfaatnya
-                </p>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Contoh Komponen Propolis yang Diteliti</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Daftar ringkas beberapa kelas senyawa. Bukti klinis
+                    dosis-respons masih terbatas.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -608,8 +489,8 @@
                     <p class="text-gray-600 mb-4">Quercetin, kaempferol, dan chrysin yang berperan sebagai antioksidan kuat
                         dan imunomodulator alami.</p>
                     <div class="bg-yellow-50 p-4 rounded-lg">
-                        <p class="text-sm text-yellow-800"><strong>Manfaat:</strong> Meningkatkan aktivitas sel NK (Natural
-                            Killer) hingga 180%</p>
+                        <p class="text-sm text-yellow-800"><strong>Catatan:</strong> Data persentase bervariasi dan belum
+                            menjadi konsensus klinis.</p>
                     </div>
                 </div>
 
@@ -631,8 +512,8 @@
                     <p class="text-gray-600 mb-4">Asam caffeic, asam cinnamic, dan CAPE yang memiliki efek antimikroba dan
                         anti-inflamasi kuat.</p>
                     <div class="bg-green-50 p-4 rounded-lg">
-                        <p class="text-sm text-green-800"><strong>Manfaat:</strong> Menghambat pertumbuhan bakteri dan
-                            virus hingga 95%</p>
+                        <p class="text-sm text-green-800"><strong>Catatan:</strong> Angka inhibisi berasal dari uji
+                            laboratorium—bukan hasil langsung pada manusia.</p>
                     </div>
                 </div>
 
@@ -719,9 +600,10 @@
                     <p class="text-gray-600 mb-4">Senyawa unik yang hanya ditemukan dalam propolis berkualitas tinggi,
                         memiliki efek imunostimulan kuat.</p>
                     <div class="bg-indigo-50 p-4 rounded-lg">
-                        <p class="text-sm text-indigo-800"><strong>Manfaat:</strong> Meningkatkan respons imun adaptif dan
-                            memori imunologis</p>
+                        <p class="text-sm text-indigo-800"><strong>Catatan:</strong> Temuan awal; diperlukan studi
+                            terkontrol lebih besar.</p>
                     </div>
+                    @section('disclaimer') @include('partials.disclaimer') @endsection
                 </div>
             </div>
         </div>

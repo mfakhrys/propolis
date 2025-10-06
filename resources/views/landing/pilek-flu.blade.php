@@ -1,17 +1,16 @@
 @extends('layouts.landing')
 
-@section('title', 'British Propolis untuk Meredakan Pilek dan Flu - Penyembuh Alami Terpercaya')
-@section('meta_description', 'British Propolis efektif meredakan pilek dan flu dengan cepat. Antibakteri dan antiviral
-    alami yang aman untuk keluarga. Sembuh lebih cepat tanpa efek samping.')
-@section('meta_keywords', 'british propolis pilek flu, obat pilek alami, obat flu alami, propolis antibakteri, propolis
-    antiviral, meredakan batuk, obat tradisional pilek, sembuh dari flu')
+@section('title', 'British Propolis & Dukungan Gejala Pilek / Flu - Informasi Edukatif')
+@section('meta_description', 'Peran propolis sebagai sumber senyawa bioaktif (flavonoid, antioksidan, antimikroba) yang
+    dapat mendukung pemulihan umum saat gejala saluran napas ringan. Bukan pengganti pengobatan medis.')
+@section('meta_keywords', 'propolis edukasi pilek flu, dukungan imunitas, antioksidan, flavonoid, kesehatan pernapasan')
 
-@section('og_title', 'British Propolis - Meredakan Pilek dan Flu Secara Alami')
-@section('og_description', 'Atasi pilek dan flu dengan British Propolis premium. Antibakteri dan antiviral alami yang
-    terbukti efektif. Sembuh lebih cepat!')
-@section('twitter_title', 'British Propolis untuk Pilek dan Flu')
-@section('twitter_description', 'Sembuhkan pilek dan flu dengan British Propolis premium. Antibakteri alami
-    terpercaya.')
+@section('og_title', 'British Propolis - Dukungan Saat Gejala Pilek/Flu Ringan')
+@section('og_description', 'Flavonoid & antioksidan propolis: potensi mendukung respon imun dan kenyamanan tenggorokan.
+    Bukan terapi kuratif.')
+@section('twitter_title', 'Dukungan Propolis (Pilek/Flu)')
+@section('twitter_description', 'Informasi edukatif potensi propolis mendampingi perawatan gejala saluran napas
+    ringan.')
 
 @section('hero')
     <section class="relative bg-gradient-to-br from-green-50 to-blue-100 overflow-hidden">
@@ -20,18 +19,16 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                     <div class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold inline-block mb-6">
-                        ✨ Sembuh 3x Lebih Cepat
-                    </div>
+                        ℹ️ Edukasi Gejala Saluran Napas</div>
                     <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                         Bye-bye
                         <span class="text-green-600">Pilek & Flu</span>
                         dengan British Propolis
                     </h1>
-                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                        Jangan biarkan pilek dan flu mengganggu aktivitas Anda. British Propolis dengan kandungan
-                        <strong>antibakteri dan antiviral alami</strong> membantu Anda sembuh lebih cepat tanpa efek
-                        samping.
-                    </p>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">Informasi mengenai bagaimana senyawa bioaktif
+                        propolis (flavonoid, asam fenolik, antioksidan) dapat <strong>mendukung kenyamanan umum</strong>
+                        (istirahat, hidrasi, nutrisi) saat mengalami gejala pilek/flu ringan. Tidak menggantikan evaluasi
+                        medis maupun obat dokter.</p>
                     <div class="flex flex-col sm:flex-row gap-4 mb-8">
                         <a
                             href="{{ url('/checkout') }}"
@@ -101,25 +98,25 @@
                                     class="w-24 h-32 bg-green-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
                                     <span class="text-white text-xs font-bold">BRITISH<br>PROPOLIS</span>
                                 </div>
-                                <h3 class="text-xl font-bold text-gray-900">Formula Khusus Anti Flu</h3>
-                                <p class="text-green-600 font-semibold">100% Natural & Aman</p>
+                                <h3 class="text-xl font-bold text-gray-900">Profil Bioaktif Propolis</h3>
+                                <p class="text-green-600 font-semibold">Data Pra-Klinis & Beberapa Studi Manusia</p>
                             </div>
                             <div class="space-y-3">
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                                    Meredakan hidung tersumbat dalam 6 jam
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div> Potensi mendukung kenyamanan
+                                    saluran napas atas
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
                                     <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
                                     Mengurangi batuk dan sakit tenggorokan
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                                    Menurunkan demam secara alami
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div> Antioksidan mendukung respon
+                                    inflamasi seimbang
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                                    Mencegah komplikasi flu yang parah
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div> Tidak dimaksudkan
+                                    menggantikan pemeriksaan medis
                                 </div>
                             </div>
                         </div>
@@ -137,13 +134,9 @@
     <section class="py-20 bg-red-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    😷 Masalah Pilek & Flu yang Mengganggu
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Pilek dan flu bukan hanya mengganggu aktivitas, tapi juga bisa berdampak serius jika tidak ditangani
-                    dengan tepat
-                </p>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Gejala Pilek & Flu Ringan (Edukasi)</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Istirahat cukup, hidrasi, nutrisi, ventilasi baik, dan
+                    konsultasi bila gejala berat merupakan pilar utama. Propolis dapat menjadi bagian gaya hidup sehat.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -163,7 +156,7 @@
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Produktivitas Menurun</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Ketidaknyamanan Aktivitas</h3>
                     <p class="text-gray-600">
                         Pilek dan flu membuat Anda tidak bisa bekerja maksimal, mengganggu jadwal penting, dan merugikan
                         karir.
@@ -186,7 +179,7 @@
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Menular ke Keluarga</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Risiko Penularan</h3>
                     <p class="text-gray-600">
                         Virus flu mudah menular. Satu orang sakit bisa membuat seluruh keluarga tertular dan menderita.
                     </p>
@@ -208,7 +201,7 @@
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Biaya Pengobatan Mahal</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Perawatan & Pencegahan</h3>
                     <p class="text-gray-600">
                         Obat-obatan kimia mahal dan bisa menimbulkan efek samping. Belum lagi biaya dokter dan rawat inap.
                     </p>
@@ -221,13 +214,11 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    🌿 British Propolis: Solusi Alami Anti Pilek & Flu
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Dengan kandungan antibakteri dan antiviral alami yang terbukti ilmiah, British Propolis adalah solusi
-                    terbaik untuk meredakan pilek dan flu
-                </p>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Potensi Komponen Propolis Saat Gejala Saluran
+                    Napas</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Beberapa studi laboratorium menunjukkan aktivitas
+                    antimikroba dan antioksidan. Bukti klinis manusia untuk percepatan penyembuhan masih terbatas dan tidak
+                    definitif.</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -252,11 +243,9 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Antibakteri Kuat</h3>
-                                <p class="text-gray-600">
-                                    Kandungan flavonoid dan artepillin-C dalam British Propolis mampu membunuh bakteri
-                                    penyebab infeksi saluran pernapasan dengan efektif.
-                                </p>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Aktivitas Antimikroba (In Vitro)</h3>
+                                <p class="text-gray-600">Flavonoid & asam fenolik menunjukkan aktivitas terhadap beberapa
+                                    mikroorganisme dalam model laboratorium. Relevansi klinis masih diteliti.</p>
                             </div>
                         </div>
 
@@ -279,10 +268,9 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Antiviral Alami</h3>
-                                <p class="text-gray-600">
-                                    Propolis terbukti dapat menghambat replikasi virus flu dan common cold, mempercepat
-                                    proses penyembuhan hingga 3x lipat.
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Data Antiviral Awal</h3>
+                                <p class="text-gray-600">Beberapa ekstrak propolis dilaporkan menghambat tahap tertentu
+                                    siklus virus dalam studi pra-klinis. Efek klinis nyata memerlukan riset lebih lanjut.
                                 </p>
                             </div>
                         </div>
@@ -306,11 +294,9 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Tanpa Efek Samping</h3>
-                                <p class="text-gray-600">
-                                    100% bahan alami tanpa bahan kimia berbahaya. Aman dikonsumsi jangka panjang dan tidak
-                                    menimbulkan ketergantungan.
-                                </p>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Penggunaan Umum</h3>
+                                <p class="text-gray-600">Suplemen tidak bebas risiko bagi semua orang. Perhatikan potensi
+                                    alergi produk lebah & konsultasikan bila memiliki kondisi khusus.</p>
                             </div>
                         </div>
 
@@ -333,11 +319,9 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Meningkatkan Imunitas</h3>
-                                <p class="text-gray-600">
-                                    Selain menyembuhkan, British Propolis juga memperkuat sistem imun tubuh sehingga tidak
-                                    mudah terserang pilek dan flu lagi.
-                                </p>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Dukungan Gaya Hidup</h3>
+                                <p class="text-gray-600">Dapat melengkapi pola makan seimbang, tidur cukup, aktivitas
+                                    fisik, dan manajemen stres.</p>
                             </div>
                         </div>
                     </div>
@@ -346,19 +330,19 @@
                 <div class="relative">
                     <div class="bg-gradient-to-br from-green-100 to-blue-100 rounded-2xl p-8">
                         <div class="text-center">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Hasil yang Bisa Anda Rasakan:</h3>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Catatan Variabilitas Individu</h3>
                             <div class="space-y-4">
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-green-700 mb-1">Dalam 6-12 Jam:</h4>
-                                    <p class="text-sm text-gray-600">Hidung mulai lega, tenggorokan tidak sakit</p>
+                                    <h4 class="font-semibold text-green-700 mb-1">Fase Awal:</h4>
+                                    <p class="text-sm text-gray-600">Fokus pada hidrasi & istirahat • Propolis opsional</p>
                                 </div>
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-blue-700 mb-1">Dalam 1-2 Hari:</h4>
-                                    <p class="text-sm text-gray-600">Batuk berkurang, demam turun</p>
+                                    <h4 class="font-semibold text-blue-700 mb-1">Pemantauan:</h4>
+                                    <p class="text-sm text-gray-600">Evaluasi gejala • Konsultasi bila memburuk</p>
                                 </div>
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-purple-700 mb-1">Dalam 3-5 Hari:</h4>
-                                    <p class="text-sm text-gray-600">Sembuh total, stamina pulih</p>
+                                    <h4 class="font-semibold text-purple-700 mb-1">Pemulihan:</h4>
+                                    <p class="text-sm text-gray-600">Variabel per individu • Tidak ada jaminan waktu</p>
                                 </div>
                             </div>
                         </div>
@@ -372,13 +356,10 @@
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    🧬 Kandungan Aktif Anti Pilek & Flu
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    British Propolis mengandung senyawa bioaktif yang terbukti secara klinis efektif melawan virus dan
-                    bakteri penyebab pilek flu
-                </p>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Komponen Bioaktif yang Diteliti</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Contoh senyawa dalam propolis yang sedang/ telah
+                    diteliti terkait aktivitas antimikroba & antioksidan. Bukti klinis langsung pada gejala pilek/flu masih
+                    terbatas.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -407,8 +388,7 @@
                             </p>
                             <div class="bg-green-50 p-4 rounded-lg">
                                 <p class="text-sm text-green-800">
-                                    <strong>Manfaat:</strong> Mengurangi peradangan saluran pernapasan dan mempercepat
-                                    penyembuhan
+                                    <strong>Catatan:</strong> Data utama dari model laboratorium / pra-klinis
                                 </p>
                             </div>
                         </div>
@@ -440,8 +420,7 @@
                             </p>
                             <div class="bg-blue-50 p-4 rounded-lg">
                                 <p class="text-sm text-blue-800">
-                                    <strong>Manfaat:</strong> Menghambat replikasi virus dan memperkuat pertahanan alami
-                                    tubuh
+                                    <strong>Catatan:</strong> Aktivitas in vitro tidak selalu sama dengan efek klinis
                                 </p>
                             </div>
                         </div>
@@ -474,7 +453,7 @@
                             </p>
                             <div class="bg-purple-50 p-4 rounded-lg">
                                 <p class="text-sm text-purple-800">
-                                    <strong>Manfaat:</strong> Mencegah virus masuk ke sel dan mengurangi gejala flu
+                                    <strong>Catatan:</strong> Mekanisme masih diteliti lebih lanjut
                                 </p>
                             </div>
                         </div>
@@ -507,7 +486,7 @@
                             </p>
                             <div class="bg-orange-50 p-4 rounded-lg">
                                 <p class="text-sm text-orange-800">
-                                    <strong>Manfaat:</strong> Menenangkan tenggorokan dan mengurangi batuk kering
+                                    <strong>Catatan:</strong> Efek pada manusia memerlukan konfirmasi studi besar
                                 </p>
                             </div>
                         </div>
@@ -521,62 +500,60 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    📋 Cara Penggunaan untuk Pilek & Flu
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Penggunaan Umum (Tidak Menggantikan Terapi)
                 </h2>
-                <p class="text-xl text-gray-600">
-                    Ikuti panduan ini untuk hasil maksimal dalam meredakan pilek dan flu
-                </p>
+                <p class="text-xl text-gray-600">Contoh pola penggunaan saat gaya hidup sehat – bukan saran dosis
+                    individual dan tidak menggantikan obat dokter.</p>
             </div>
 
             <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12">
-                <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Dosis Khusus Saat Pilek & Flu</h3>
+                <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Contoh Ilustratif</h3>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-white rounded-xl p-6 shadow-md">
-                        <h4 class="text-lg font-semibold text-green-700 mb-4">👨‍👩‍👧‍👦 Dewasa (18+ tahun)</h4>
+                        <h4 class="text-lg font-semibold text-green-700 mb-4">👨‍👩‍👧‍👦 Dewasa (Ilustrasi)</h4>
                         <div class="space-y-3">
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-green-600 text-xs font-bold">1</span>
                                 </div>
-                                <p class="text-sm text-gray-700"><strong>15-20 tetes</strong> langsung ke mulut</p>
+                                <p class="text-sm text-gray-700">Beberapa pengguna memilih beberapa tetes dicampur air</p>
                             </div>
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-green-600 text-xs font-bold">2</span>
                                 </div>
-                                <p class="text-sm text-gray-700"><strong>4-5 kali sehari</strong> (setiap 3-4 jam)</p>
+                                <p class="text-sm text-gray-700">Frekuensi wajar: 1–3x / hari</p>
                             </div>
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-green-600 text-xs font-bold">3</span>
                                 </div>
-                                <p class="text-sm text-gray-700">Konsumsi hingga <strong>3 hari setelah sembuh</strong></p>
+                                <p class="text-sm text-gray-700">Hentikan bila ada reaksi tidak diinginkan</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="bg-white rounded-xl p-6 shadow-md">
-                        <h4 class="text-lg font-semibold text-blue-700 mb-4">👶 Anak-anak (1-17 tahun)</h4>
+                        <h4 class="text-lg font-semibold text-blue-700 mb-4">👶 Anak (Konsultasi Dokter)</h4>
                         <div class="space-y-3">
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-blue-600 text-xs font-bold">1</span>
                                 </div>
-                                <p class="text-sm text-gray-700"><strong>5-10 tetes</strong> campur dengan madu</p>
+                                <p class="text-sm text-gray-700">Penggunaan harus mempertimbangkan usia & alergi</p>
                             </div>
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-blue-600 text-xs font-bold">2</span>
                                 </div>
-                                <p class="text-sm text-gray-700"><strong>3-4 kali sehari</strong> setelah makan</p>
+                                <p class="text-sm text-gray-700">Ikuti saran profesional kesehatan</p>
                             </div>
                             <div class="flex items-center">
                                 <div class="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-3">
                                     <span class="text-blue-600 text-xs font-bold">3</span>
                                 </div>
-                                <p class="text-sm text-gray-700">Dosis bisa ditingkatkan jika perlu</p>
+                                <p class="text-sm text-gray-700">Jangan tingkatkan mandiri tanpa nasihat medis</p>
                             </div>
                         </div>
                     </div>
@@ -584,23 +561,23 @@
             </div>
 
             <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
-                <h4 class="text-lg font-semibold text-amber-800 mb-3">💡 Tips Tambahan untuk Penyembuhan Cepat:</h4>
+                <h4 class="text-lg font-semibold text-amber-800 mb-3">💡 Tips Umum Mendukung Pemulihan:</h4>
                 <ul class="space-y-2 text-amber-700">
                     <li class="flex items-center">
                         <span class="mr-2">✅</span>
-                        Minum air putih yang banyak untuk membantu detoksifikasi
+                        Hidrasi cukup (air putih, cairan hangat)
                     </li>
                     <li class="flex items-center">
                         <span class="mr-2">✅</span>
-                        Istirahat yang cukup untuk mempercepat recovery
+                        Istirahat & tidur cukup
                     </li>
                     <li class="flex items-center">
                         <span class="mr-2">✅</span>
-                        Konsumsi vitamin C alami dari buah-buahan
+                        Konsumsi buah & sayur beragam
                     </li>
                     <li class="flex items-center">
                         <span class="mr-2">✅</span>
-                        Hindari makanan dingin dan berminyak
+                        Konsultasi jika demam tinggi / sesak / gejala berat
                     </li>
                 </ul>
             </div>
@@ -611,24 +588,24 @@
     <section class="py-20 bg-gradient-to-r from-red-600 to-orange-600">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
-                ⚠️ Jangan Biarkan Pilek & Flu Berlarut-larut!
+                ⚠️ Edukasi & Pemantauan Gejala
             </h2>
             <p class="text-xl text-red-100 mb-8 max-w-3xl mx-auto">
-                Semakin lama dibiarkan, virus akan semakin kuat dan sulit diobati. Atasi sekarang sebelum terlambat!
+                Hubungi tenaga kesehatan bila gejala berat, menetap, atau memburuk. Informasi ini bukan pengganti diagnosis.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                 <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-                    <h3 class="text-lg font-bold text-white mb-2">Hari 1-2</h3>
-                    <p class="text-red-100 text-sm">Masih mudah diobati dengan British Propolis</p>
+                    <h3 class="text-lg font-bold text-white mb-2">Awal</h3>
+                    <p class="text-red-100 text-sm">Perbanyak istirahat & hidrasi</p>
                 </div>
                 <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-                    <h3 class="text-lg font-bold text-white mb-2">Hari 3-7</h3>
-                    <p class="text-red-100 text-sm">Butuh dosis lebih tinggi dan waktu lebih lama</p>
+                    <h3 class="text-lg font-bold text-white mb-2">Pemantauan</h3>
+                    <p class="text-red-100 text-sm">Kaji perbaikan bertahap</p>
                 </div>
                 <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-                    <h3 class="text-lg font-bold text-white mb-2">Minggu 2+</h3>
-                    <p class="text-red-100 text-sm">Risiko komplikasi dan infeksi sekunder</p>
+                    <h3 class="text-lg font-bold text-white mb-2">Lambat Pulih</h3>
+                    <p class="text-red-100 text-sm">Pertimbangkan evaluasi medis</p>
                 </div>
             </div>
 
@@ -636,12 +613,11 @@
                 href="{{ url('/checkout') }}"
                 class="bg-white text-red-600 hover:bg-gray-100 px-12 py-4 rounded-lg text-xl font-bold transition-colors inline-block shadow-lg"
             >
-                🚨 Pesan Sekarang - Sembuh Hari Ini!
+                Pesan Sekarang (Opsional Suplemen)
             </a>
 
-            <p class="text-red-200 mt-4 text-sm">
-                ⏰ Gratis ongkir & garansi uang kembali - Stock terbatas!
-            </p>
+            <p class="text-red-200 mt-4 text-sm">Informasi edukatif – tidak menjamin hasil atau waktu pemulihan.</p>
         </div>
     </section>
+    @section('disclaimer') @include('partials.disclaimer') @endsection
 @endsection

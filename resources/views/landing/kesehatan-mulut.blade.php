@@ -1,45 +1,48 @@
 @extends('layouts.landing')
 
-@section('title', 'British Propolis & Kesehatan Kulit - Informasi Edukatif')
-@section('meta_description', 'Potensi sifat antioksidan & antimikroba propolis dalam mendukung perawatan kulit bersama
-    rutinitas skincare seimbang. Bukan pengganti terapi dermatologis.')
+@section('title', 'British Propolis & Kesehatan Mulut - Informasi Edukatif')
+@section('meta_description', 'Ringkasan potensi antimikroba & antioksidan propolis sebagai pendukung kebersihan mulut
+    bersama sikat gigi, floss, dan pemeriksaan gigi rutin.')
 @section('meta_keywords',
-    'british propolis kulit, obat jerawat alami, eksim propolis, dermatitis alami, propolis
-    antibakteri kulit, perawatan kulit alami, obat gatal kulit, propolis anti inflamasi')
+    'british propolis mulut, obat sariawan alami, gusi berdarah propolis, bau mulut alami, propolis
+    antibakteri mulut, obat sakit gigi alami, infeksi mulut propolis, mouthwash alami')
 
-@section('og_title', 'British Propolis - Solusi Alami untuk Kesehatan Kulit')
-@section('og_description', 'Propolis: flavonoid & fenolik yang diteliti untuk peran pendukung perawatan kulit. Edukasi,
-    bukan klaim kuratif.')
-@section('twitter_title', 'British Propolis untuk Kulit Sehat')
-@section('twitter_description', 'Kulit bermasalah? British Propolis solusinya! Antibakteri alami untuk kulit sehat.')
+@section('og_title', 'British Propolis - Solusi Alami untuk Kesehatan Mulut')
+@section('og_description',
+    'Atasi masalah mulut dengan British Propolis premium. Efektif untuk sariawan, gusi berdarah, dan
+    bau mulut. 100% alami tanpa efek samping!')
+@section('twitter_title', 'British Propolis untuk Mulut Sehat')
+@section('twitter_description',
+    'Masalah mulut mengganggu? British Propolis solusinya! Antibakteri alami untuk mulut
+    sehat.')
 
 @section('hero')
-    <section class="relative bg-gradient-to-br from-pink-50 to-purple-100 overflow-hidden">
+    <section class="relative bg-gradient-to-br from-green-50 to-blue-100 overflow-hidden">
         <div class="absolute inset-0 bg-white/60"></div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <div class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-semibold inline-block mb-6">ℹ️
-                        Edukasi Perawatan Kulit</div>
+                    <div class="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold inline-block mb-6">
+                        ℹ️ Edukasi Kesehatan Mulut</div>
                     <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                        Kulit
-                        <span class="text-pink-600">Sehat & Bersih</span>
+                        Mulut
+                        <span class="text-green-600">Sehat & Segar</span>
                         dengan British Propolis
                     </h1>
-                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">Ringkasan penelitian awal tentang senyawa propolis
-                        yang <strong>dapat mendukung perawatan kulit</strong> (kebersihan, hidrasi, perlindungan sinar UV).
-                        Tidak memberikan jaminan hasil atau waktu perbaikan tertentu.</p>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">Suplemen propolis mengandung senyawa yang telah
+                        dipelajari untuk aktivitas antimikroba. Pengelolaan kondisi mulut (sariawan, gingivitis) tetap
+                        memerlukan kebersihan mulut konsisten dan konsultasi profesional bila menetap.</p>
                     <div class="flex flex-col sm:flex-row gap-4 mb-8">
                         <a
                             href="{{ url('/checkout') }}"
-                            class="bg-pink-600 hover:bg-pink-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
+                            class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
                         >
-                            🛒 Dapatkan Kulit Cantik Sekarang!
+                            🛒 Dapatkan Mulut Sehat Sekarang!
                         </a>
                         <a
                             href="https://wa.me/6281234567890"
                             target="_blank"
-                            class="border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
+                            class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
                         >
                             💬 Konsultasi Gratis
                         </a>
@@ -47,7 +50,7 @@
                     <div class="flex items-center space-x-6 text-sm text-gray-600">
                         <div class="flex items-center">
                             <svg
-                                class="w-5 h-5 text-pink-500 mr-2"
+                                class="w-5 h-5 text-green-500 mr-2"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                             >
@@ -61,7 +64,7 @@
                         </div>
                         <div class="flex items-center">
                             <svg
-                                class="w-5 h-5 text-pink-500 mr-2"
+                                class="w-5 h-5 text-green-500 mr-2"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                             >
@@ -71,11 +74,11 @@
                                     clip-rule="evenodd"
                                 />
                             </svg>
-                            Tanpa Efek Samping
+                            Aman untuk Anak
                         </div>
                         <div class="flex items-center">
                             <svg
-                                class="w-5 h-5 text-pink-500 mr-2"
+                                class="w-5 h-5 text-green-500 mr-2"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                             >
@@ -94,34 +97,35 @@
                     <div class="relative z-10">
                         <div class="bg-white rounded-2xl p-8 shadow-xl">
                             <div class="text-center mb-6">
-                                <div class="w-24 h-32 bg-pink-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                                <div
+                                    class="w-24 h-32 bg-green-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
                                     <span class="text-white text-xs font-bold">BRITISH<br>PROPOLIS</span>
                                 </div>
-                                <h3 class="text-xl font-bold text-gray-900">Profil Bioaktif Kulit</h3>
-                                <p class="text-pink-600 font-semibold">Data Pra-Klinis & Terbatas Manusia</p>
+                                <h3 class="text-xl font-bold text-gray-900">Profil Bioaktif Mulut</h3>
+                                <p class="text-green-600 font-semibold">Data Pra-Klinis & Terbatas</p>
                             </div>
                             <div class="space-y-3">
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-pink-500 rounded-full mr-3"></div>
-                                    Potensi mendukung perawatan area berjerawat (tanpa jaminan waktu)
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                    Potensi mendukung kenyamanan area sariawan*
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-pink-500 rounded-full mr-3"></div>
-                                    Mendampingi strategi dermatologis untuk kulit sensitif*
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                    Perawatan gingiva tetap: sikat gigi lembut, floss
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-pink-500 rounded-full mr-3"></div>
-                                    Dukungan lingkungan kulit yang seimbang
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                    Nafas segar: kombinasi kebersihan lidah & hidrasi
                                 </div>
                                 <div class="flex items-center text-sm text-gray-700">
-                                    <div class="w-2 h-2 bg-pink-500 rounded-full mr-3"></div>
-                                    Antioksidan membantu melawan stres oksidatif
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                    Tidak menggantikan pemeriksaan gigi berkala
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-pink-200 rounded-full opacity-60"></div>
-                    <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-purple-200 rounded-full opacity-40"></div>
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-green-200 rounded-full opacity-60"></div>
+                    <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-blue-200 rounded-full opacity-40"></div>
                 </div>
             </div>
         </div>
@@ -134,15 +138,59 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    😰 Masalah Kulit yang Meresahkan
+                    😰 Masalah Mulut yang Mengganggu
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Masalah kulit tidak hanya mengganggu penampilan, tapi juga menurunkan rasa percaya diri dan
-                    kualitas hidup Anda
+                    Masalah mulut tidak hanya menyebabkan nyeri, tapi juga menurunkan kualitas hidup dan
+                    hubungan sosial Anda
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg
+                            class="w-8 h-8 text-red-600"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Sariawan Berulang</h3>
+                    <p class="text-gray-600">
+                        Sariawan yang sering muncul, perih, dan mengganggu saat makan, minum, atau berbicara.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg
+                            class="w-8 h-8 text-red-600"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                            />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Gusi Berdarah</h3>
+                    <p class="text-gray-600">
+                        Gusi bengkak, berdarah saat sikat gigi, dan nyeri yang menandakan infeksi atau gingivitis.
+                    </p>
+                </div>
+
                 <div class="bg-white rounded-xl p-6 shadow-lg text-center">
                     <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg
@@ -159,53 +207,9 @@
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Jerawat Membandel</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Bau Mulut Tidak Sedap</h3>
                     <p class="text-gray-600">
-                        Jerawat yang tidak kunjung hilang, meninggalkan bekas hitam dan membuat wajah tidak percaya diri.
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
-                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg
-                            class="w-8 h-8 text-red-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                            />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Eksim & Dermatitis</h3>
-                    <p class="text-gray-600">
-                        Kulit gatal, kemerahan, dan mengelupas yang mengganggu aktivitas sehari-hari dan tidur malam.
-                    </p>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
-                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg
-                            class="w-8 h-8 text-red-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                            />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Produk Mahal Tidak Efektif</h3>
-                    <p class="text-gray-600">
-                        Sudah mencoba berbagai produk skincare mahal tapi hasilnya mengecewakan, bahkan memperparah kondisi.
+                        Bau mulut yang persisten meskipun sudah menyikat gigi, mengurangi rasa percaya diri.
                     </p>
                 </div>
             </div>
@@ -216,10 +220,10 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Potensi Bioaktif Propolis untuk Kulit</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Potensi Bioaktif Propolis untuk Mulut</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Dengan kandungan antibakteri, anti-inflamasi, dan antioksidan alami, British Propolis adalah
-                    solusi terbaik untuk berbagai masalah kulit
+                    Dengan kandungan antibakteri, antiseptik, dan anti-inflamasi alami, British Propolis adalah
+                    mouthwash alami terbaik untuk kesehatan mulut optimal
                 </p>
             </div>
 
@@ -228,9 +232,9 @@
                     <div class="space-y-8">
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                                     <svg
-                                        class="w-6 h-6 text-pink-600"
+                                        class="w-6 h-6 text-green-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -246,33 +250,8 @@
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-xl font-bold text-gray-900 mb-2">Aktivitas Antimikroba (In Vitro)</h3>
-                                <p class="text-gray-600">Flavonoid & asam fenolik menunjukkan aktivitas terhadap beberapa
-                                    bakteri pada model laboratorium. Relevansi klinis masih dikaji.</p>
-                            </div>
-                        </div>
-
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                                    <svg
-                                        class="w-6 h-6 text-purple-600"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                                        />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Modulasi Inflamasi (Data Awal)</h3>
-                                <p class="text-gray-600">Beberapa senyawa propolis dipelajari terkait penanda inflamasi.
-                                    Tidak menggantikan terapi dokter.</p>
+                                <p class="text-gray-600">Studi menunjukkan efek terhadap beberapa bakteri oral;
+                                    implementasi klinis memerlukan pendekatan kebersihan rutin.</p>
                             </div>
                         </div>
 
@@ -289,25 +268,52 @@
                                             stroke-linecap="round"
                                             stroke-linejoin="round"
                                             stroke-width="2"
-                                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                                         />
                                     </svg>
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Dukungan Regenerasi</h3>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Dukungan Jaringan</h3>
                                 <p class="text-gray-600">
-                                    Mempercepat penyembuhan luka, menghilangkan bekas jerawat, dan merangsang
-                                    pembentukan sel kulit baru yang sehat.
+                                    Mempercepat penyembuhan sariawan, luka di mulut, dan meredakan peradangan gusi dalam
+                                    hitungan hari.
                                 </p>
                             </div>
                         </div>
 
                         <div class="flex">
                             <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
                                     <svg
-                                        class="w-6 h-6 text-green-600"
+                                        class="w-6 h-6 text-purple-600"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Pendukung Kebersihan Nafas</h3>
+                                <p class="text-gray-600">
+                                    Menghilangkan bau mulut dari akar penyebabnya dan memberikan nafas segar yang tahan
+                                    lama.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                                    <svg
+                                        class="w-6 h-6 text-yellow-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -322,10 +328,9 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Aktivitas Antioksidan</h3>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Komplemen Kebersihan Harian</h3>
                                 <p class="text-gray-600">
-                                    Melindungi kulit dari radikal bebas dan polusi, mencegah penuaan dini, dan
-                                    menjaga elastisitas kulit.
+                                    Mencegah kerusakan gigi, karies, dan penyakit gusi untuk kesehatan mulut jangka panjang.
                                 </p>
                             </div>
                         </div>
@@ -333,22 +338,21 @@
                 </div>
 
                 <div class="relative">
-                    <div class="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl p-8">
+                    <div class="bg-gradient-to-br from-green-100 to-blue-100 rounded-2xl p-8">
                         <div class="text-center">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Catatan Variasi Individu</h3>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Catatan Variabilitas</h3>
                             <div class="space-y-4">
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-pink-700 mb-1">Fase Awal:</h4>
-                                    <p class="text-sm text-gray-600">Mulai observasi perubahan kenyamanan kulit</p>
+                                    <h4 class="font-semibold text-green-700 mb-1">Awal:</h4>
+                                    <p class="text-sm text-gray-600">Fokus kebersihan & hidrasi</p>
                                 </div>
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-purple-700 mb-1">Penyesuaian:</h4>
-                                    <p class="text-sm text-gray-600">Evaluasi toleransi & kombinasi perawatan</p>
+                                    <h4 class="font-semibold text-blue-700 mb-1">Pemantauan:</h4>
+                                    <p class="text-sm text-gray-600">Evaluasi perbaikan bertahap</p>
                                 </div>
                                 <div class="bg-white rounded-lg p-4 shadow-md">
-                                    <h4 class="font-semibold text-blue-700 mb-1">Lanjutan:</h4>
-                                    <p class="text-sm text-gray-600">Perubahan tampilan kulit bersifat bertahap &
-                                        individual</p>
+                                    <h4 class="font-semibold text-purple-700 mb-1">Lanjutan:</h4>
+                                    <p class="text-sm text-gray-600">Hasil berbeda tiap individu</p>
                                 </div>
                             </div>
                         </div>
@@ -362,17 +366,17 @@
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Contoh Penggunaan Umum (Non Medis)</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Contoh Penggunaan Umum</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    British Propolis dapat digunakan dengan berbagai cara sesuai kebutuhan dan jenis masalah kulit Anda
+                    British Propolis dapat digunakan dengan berbagai cara untuk mengatasi masalah mulut spesifik Anda
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white rounded-xl p-6 shadow-lg">
-                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg
-                            class="w-8 h-8 text-pink-600"
+                            class="w-8 h-8 text-green-600"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
@@ -381,41 +385,16 @@
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 stroke-width="2"
-                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM7 3H5a2 2 0 00-2 2v12a4 4 0 004 4h2M9 3h10a2 2 0 012 2v12a4 4 0 01-2 2H9M9 7h4m-4 8h4m-4-16h4"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Konsumsi Oral</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Obat Kumur Alami</h3>
                     <div class="space-y-2 text-sm text-gray-600">
-                        <p><strong>Ilustrasi:</strong> Beberapa pengguna memilih beberapa tetes 1–2x sehari</p>
-                        <p><strong>Cara:</strong> Teteskan langsung ke mulut</p>
-                        <p><strong>Waktu:</strong> Pagi dan malam sebelum tidur</p>
-                        <p><strong>Catatan:</strong> Bukan pengganti pola makan bergizi</p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 shadow-lg">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg
-                            class="w-8 h-8 text-purple-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
-                            />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Aplikasi Topikal</h3>
-                    <div class="space-y-2 text-sm text-gray-600">
-                        <p><strong>Ilustrasi:</strong> Pengujian area kecil (patch test) sebelum penggunaan luas</p>
-                        <p><strong>Cara:</strong> Oleskan langsung ke kulit</p>
-                        <p><strong>Waktu:</strong> 2-3x sehari setelah cuci muka</p>
-                        <p><strong>Catatan:</strong> Hentikan bila iritasi</p>
+                        <p><strong>Ilustrasi:</strong> Beberapa tetes dalam air (tidak ditelan) - opsional</p>
+                        <p><strong>Cara:</strong> Kumur selama 30 detik, buang</p>
+                        <p><strong>Waktu:</strong> Pagi dan malam setelah sikat gigi</p>
+                        <p><strong>Catatan:</strong> Bukan pengganti obat kumur direkomendasikan dokter</p>
                     </div>
                 </div>
 
@@ -431,42 +410,67 @@
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 stroke-width="2"
-                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"
+                                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
                             />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Face Mask</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Aplikasi Langsung</h3>
                     <div class="space-y-2 text-sm text-gray-600">
-                        <p><strong>Ilustrasi:</strong> Campur sedikit tetes dengan bahan pendukung (madu) secara berkala</p>
-                        <p><strong>Cara:</strong> Campur dan oleskan ke wajah</p>
-                        <p><strong>Waktu:</strong> 2x seminggu, diamkan 15 menit</p>
-                        <p><strong>Catatan:</strong> Hindari area mata & luka terbuka</p>
+                        <p><strong>Ilustrasi:</strong> Patch kecil – hentikan bila iritasi</p>
+                        <p><strong>Cara:</strong> Teteskan langsung ke area sariawan</p>
+                        <p><strong>Waktu:</strong> 3-4x sehari setelah makan</p>
+                        <p><strong>Catatan:</strong> Kondisi menetap perlu evaluasi profesional</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg
+                            class="w-8 h-8 text-purple-600"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM7 3H5a2 2 0 00-2 2v12a4 4 0 004 4h2M9 3h10a2 2 0 012 2v12a4 4 0 01-2 2H9M9 7h4m-4 8h4m-4-16h4"
+                            />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Konsumsi Oral</h3>
+                    <div class="space-y-2 text-sm text-gray-600">
+                        <p><strong>Ilustrasi:</strong> Konsumsi tetes sesuai preferensi pengguna</p>
+                        <p><strong>Cara:</strong> Teteskan langsung ke mulut</p>
+                        <p><strong>Waktu:</strong> Pagi dan malam sebelum tidur</p>
+                        <p><strong>Catatan:</strong> Tetap sikat gigi, floss, kontrol gigi rutin</p>
+                        @section('disclaimer') @include('partials.disclaimer') @endsection
                     </div>
                 </div>
             </div>
 
-            <div class="mt-12 bg-gradient-to-r from-pink-50 to-purple-50 rounded-2xl p-8">
-                <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Tips Umum</h3>
+            <div class="mt-12 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Tips Penggunaan untuk Hasil Maksimal</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="space-y-3">
-                        <h4 class="font-semibold text-pink-700">✅ Yang Harus Dilakukan:</h4>
+                        <h4 class="font-semibold text-green-700">✅ Yang Harus Dilakukan:</h4>
                         <ul class="space-y-2 text-sm text-gray-700">
-                            <li>• Bersihkan wajah sebelum aplikasi topikal</li>
-                            <li>• Mulai dengan dosis kecil untuk tes sensitivitas</li>
-                            <li>• Konsistensi moderat & evaluasi berkala</li>
-                            <li>• Minum air putih yang banyak</li>
-                            <li>• Hindari menyentuh area yang diobati</li>
+                            <li>• Sikat gigi dengan lembut sebelum menggunakan</li>
+                            <li>• Hindari makan/minum 30 menit setelah penggunaan</li>
+                            <li>• Gunakan secara rutin untuk pencegahan</li>
+                            <li>• Bersihkan lidah dengan scraper</li>
+                            <li>• Minum air putih yang cukup</li>
                         </ul>
                     </div>
                     <div class="space-y-3">
                         <h4 class="font-semibold text-red-700">❌ Yang Harus Dihindari:</h4>
                         <ul class="space-y-2 text-sm text-gray-700">
-                            <li>• Menggabungkan terlalu banyak produk aktif sekaligus</li>
-                            @section('disclaimer') @include('partials.disclaimer') @endsection
-                            <li>• Terpapar sinar matahari langsung setelah aplikasi</li>
+                            <li>• Menelan obat kumur propolis</li>
+                            <li>• Menggunakan alkohol/rokok setelah aplikasi</li>
+                            <li>• Makan makanan pedas saat ada sariawan</li>
                             <li>• Menghentikan penggunaan saat mulai membaik</li>
-                            <li>• Memencet jerawat atau luka</li>
-                            <li>• Menggunakan dosis berlebihan</li>
+                            <li>• Menggunakan bersamaan dengan obat kumur kimia</li>
                         </ul>
                     </div>
                 </div>
@@ -479,44 +483,45 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    📸 Transformasi Kulit Nyata
+                    📸 Transformasi Kesehatan Mulut Nyata
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Lihat bagaimana British Propolis mengubah kulit bermasalah menjadi kulit sehat dan bersih
+                    Lihat bagaimana British Propolis mengubah masalah mulut menjadi mulut sehat dan segar
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-gray-50 rounded-xl p-6 text-center">
                     <div class="bg-gray-200 rounded-lg h-48 mb-4 flex items-center justify-center">
-                        <span class="text-gray-500 text-sm">Before/After Photo<br>Jerawat Parah → Kulit Bersih</span>
+                        <span class="text-gray-500 text-sm">Before/After Photo<br>Sariawan Parah → Mulut Sehat</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-2">Sarah, 24 tahun</h3>
+                    <h3 class="font-semibold text-gray-900 mb-2">Rina, 32 tahun</h3>
                     <p class="text-sm text-gray-600 mb-3">
-                        "Jerawat yang sudah 5 tahun hilang dalam 3 minggu! Sekarang kulit saya bersih dan percaya diri
-                        lagi."
+                        "Sariawan yang sudah 2 minggu tidak sembuh, hilang dalam 3 hari! Sekarang mulut saya sehat dan bisa
+                        makan dengan nyaman."
                     </p>
                     <div class="text-yellow-400 text-sm">★★★★★</div>
                 </div>
 
                 <div class="bg-gray-50 rounded-xl p-6 text-center">
                     <div class="bg-gray-200 rounded-lg h-48 mb-4 flex items-center justify-center">
-                        <span class="text-gray-500 text-sm">Before/After Photo<br>Eksim → Kulit Sehat</span>
+                        <span class="text-gray-500 text-sm">Before/After Photo<br>Gusi Berdarah → Gusi Sehat</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-2">Budi, 35 tahun</h3>
+                    <h3 class="font-semibold text-gray-900 mb-2">Ahmad, 45 tahun</h3>
                     <p class="text-sm text-gray-600 mb-3">
-                        "Eksim di tangan yang gatal dan mengelupas sembuh total. Tidak ada lagi rasa gatal yang mengganggu!"
+                        "Gusi yang selalu berdarah saat sikat gigi kini sehat pink. Tidak ada lagi rasa ngilu dan bengkak!"
                     </p>
                     <div class="text-yellow-400 text-sm">★★★★★</div>
                 </div>
 
                 <div class="bg-gray-50 rounded-xl p-6 text-center">
                     <div class="bg-gray-200 rounded-lg h-48 mb-4 flex items-center justify-center">
-                        <span class="text-gray-500 text-sm">Before/After Photo<br>Bekas Jerawat → Kulit Mulus</span>
+                        <span class="text-gray-500 text-sm">Before/After Photo<br>Bau Mulut → Nafas Segar</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900 mb-2">Maya, 28 tahun</h3>
+                    <h3 class="font-semibold text-gray-900 mb-2">Sari, 28 tahun</h3>
                     <p class="text-sm text-gray-600 mb-3">
-                        "Bekas jerawat hitam yang membandel akhirnya memudar. Sekarang kulit wajah saya mulus kembali!"
+                        "Bau mulut yang membuat tidak percaya diri kini hilang total. Nafas segar sepanjang hari tanpa
+                        permen karet!"
                     </p>
                     <div class="text-yellow-400 text-sm">★★★★★</div>
                 </div>
@@ -525,24 +530,57 @@
     </section>
 
     <!-- Ingredients Section -->
-    <section class="py-20 bg-purple-50">
+    <section class="py-20 bg-green-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    🧬 Kandungan Aktif untuk Kulit Sehat
+                    🧬 Kandungan Aktif untuk Mulut Sehat
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     British Propolis mengandung senyawa bioaktif yang telah terbukti secara klinis efektif untuk
-                    berbagai masalah kulit
+                    kesehatan mulut dan gigi
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="bg-white rounded-xl p-8 shadow-lg">
                     <div class="flex items-start">
-                        <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                             <svg
-                                class="w-6 h-6 text-pink-600"
+                                class="w-6 h-6 text-green-600"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Pinocembrin</h3>
+                            <p class="text-gray-600 mb-4">
+                                Senyawa antibakteri yang sangat efektif melawan Streptococcus mutans dan bakteri penyebab
+                                karies gigi.
+                            </p>
+                            <div class="bg-green-50 p-4 rounded-lg">
+                                <p class="text-sm text-green-800">
+                                    <strong>Manfaat:</strong> Mencegah kerusakan gigi dan menghentikan perkembangan bakteri
+                                    jahat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <svg
+                                class="w-6 h-6 text-blue-600"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -556,14 +594,13 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-3">Quercetin</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Chrysin</h3>
                             <p class="text-gray-600 mb-4">
-                                Flavonoid dengan sifat anti-inflamasi kuat yang meredakan kemerahan, bengkak, dan
-                                iritasi pada kulit sensitif.
+                                Flavonoid dengan sifat anti-inflamasi yang meredakan pembengkakan dan kemerahan pada gusi.
                             </p>
-                            <div class="bg-pink-50 p-4 rounded-lg">
-                                <p class="text-sm text-pink-800">
-                                    <strong>Manfaat:</strong> Menenangkan kulit berjerawat dan mengurangi peradangan
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <p class="text-sm text-blue-800">
+                                    <strong>Manfaat:</strong> Menyembuhkan gingivitis dan meredakan nyeri gusi
                                 </p>
                             </div>
                         </div>
@@ -584,51 +621,19 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                                />
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-3">Pinocembrin</h3>
-                            <p class="text-gray-600 mb-4">
-                                Senyawa antibakteri dan antijamur yang efektif melawan Propionibacterium acnes
-                                penyebab jerawat.
-                            </p>
-                            <div class="bg-purple-50 p-4 rounded-lg">
-                                <p class="text-sm text-purple-800">
-                                    <strong>Manfaat:</strong> Membunuh bakteri jerawat dan mencegah infeksi kulit
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-xl p-8 shadow-lg">
-                    <div class="flex items-start">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                            <svg
-                                class="w-6 h-6 text-blue-600"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
                                     d="M13 10V3L4 14h7v7l9-11h-7z"
                                 />
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-3">Asam Ferulic</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Asam Caffeic</h3>
                             <p class="text-gray-600 mb-4">
-                                Antioksidan kuat yang melindungi kulit dari kerusakan radikal bebas dan mempercepat
-                                regenerasi sel kulit.
+                                Senyawa dengan aktivitas wound healing yang mempercepat penyembuhan sariawan dan luka di
+                                mulut.
                             </p>
-                            <div class="bg-blue-50 p-4 rounded-lg">
-                                <p class="text-sm text-blue-800">
-                                    <strong>Manfaat:</strong> Mencegah penuaan dini dan memperbaiki tekstur kulit
+                            <div class="bg-purple-50 p-4 rounded-lg">
+                                <p class="text-sm text-purple-800">
+                                    <strong>Manfaat:</strong> Menyembuhkan sariawan dan luka mulut dengan cepat
                                 </p>
                             </div>
                         </div>
@@ -637,9 +642,10 @@
 
                 <div class="bg-white rounded-xl p-8 shadow-lg">
                     <div class="flex items-start">
-                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                        <div
+                            class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                             <svg
-                                class="w-6 h-6 text-green-600"
+                                class="w-6 h-6 text-yellow-600"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -655,12 +661,12 @@
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-3">Galangin</h3>
                             <p class="text-gray-600 mb-4">
-                                Flavonoid dengan efek wound healing yang mempercepat penyembuhan luka dan mengurangi
-                                pembentukan bekas luka.
+                                Antiseptik alami yang menghilangkan bau mulut dengan membunuh bakteri anaerob penyebab
+                                halitosis.
                             </p>
-                            <div class="bg-green-50 p-4 rounded-lg">
-                                <p class="text-sm text-green-800">
-                                    <strong>Manfaat:</strong> Menyembuhkan luka jerawat dan menghilangkan bekas hitam
+                            <div class="bg-yellow-50 p-4 rounded-lg">
+                                <p class="text-sm text-yellow-800">
+                                    <strong>Manfaat:</strong> Menghilangkan bau mulut dan memberikan nafas segar alami
                                 </p>
                             </div>
                         </div>
@@ -671,22 +677,22 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-pink-600 to-purple-600">
+    <section class="py-20 bg-gradient-to-r from-green-600 to-blue-600">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
-                ✨ Wujudkan Kulit Impian Anda Hari Ini!
+                🦷 Wujudkan Mulut Sehat Impian Anda Hari Ini!
             </h2>
-            <p class="text-xl text-pink-100 mb-8 max-w-3xl mx-auto">
-                Jangan biarkan masalah kulit menurunkan rasa percaya diri Anda. British Propolis adalah solusi alami
-                yang telah dipercaya ribuan orang untuk kulit sehat dan bersih.
+            <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
+                Jangan biarkan masalah mulut mengganggu kualitas hidup Anda. British Propolis adalah solusi alami
+                yang telah dipercaya ribuan orang untuk mulut sehat dan nafas segar.
             </p>
 
             <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-2xl mx-auto">
                 <h3 class="text-xl font-bold text-white mb-3">🎁 Bonus Eksklusif Hari Ini</h3>
-                <ul class="text-pink-100 text-left space-y-2">
-                    <li>✅ E-book "Panduan Perawatan Kulit Alami"</li>
-                    <li>✅ Konsultasi gratis dengan beauty expert</li>
-                    <li>✅ Tips skincare routine yang tepat</li>
+                <ul class="text-green-100 text-left space-y-2">
+                    <li>✅ E-book "Panduan Perawatan Mulut Alami"</li>
+                    <li>✅ Konsultasi gratis dengan dental expert</li>
+                    <li>✅ Tips oral hygiene yang tepat</li>
                     <li>✅ Garansi 100% uang kembali jika tidak puas</li>
                 </ul>
             </div>
@@ -694,7 +700,7 @@
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                     href="{{ url('/checkout') }}"
-                    class="bg-white text-pink-700 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
+                    class="bg-white text-green-700 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
                 >
                     <svg
                         class="w-5 h-5 mr-2"
@@ -709,12 +715,12 @@
                             d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 11-4 0v-6m4 0V9a2 2 0 10-4 0v4.01"
                         />
                     </svg>
-                    Pesan Sekarang - Kulit Cantik!
+                    Pesan Sekarang - Mulut Sehat!
                 </a>
                 <a
                     href="https://wa.me/6281234567890"
                     target="_blank"
-                    class="border-2 border-white text-white hover:bg-white hover:text-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
+                    class="border-2 border-white text-white hover:bg-white hover:text-green-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center"
                 >
                     <svg
                         class="w-5 h-5 mr-2"
@@ -729,7 +735,7 @@
                 </a>
             </div>
 
-            <p class="text-pink-200 mt-6 text-sm">
+            <p class="text-green-200 mt-6 text-sm">
                 💳 Pembayaran mudah: Transfer Bank, COD, atau E-Wallet
             </p>
         </div>
