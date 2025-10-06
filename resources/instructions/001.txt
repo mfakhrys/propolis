@@ -1,0 +1,22 @@
+I want to create a website to sell British Propolis, one product only. All text on the website should be in Bahasa Indonesia. Please ensure the website is user-friendly, visually appealing, and optimized for both desktop and mobile devices. The website should have the following features:
+
+1. Home Page: A welcoming home page that highlights the benefits of British Propolis and showcases featured products.
+2. Create some landing pages using the sickness that British Propolis can help with. You are a SEO expert, so make sure to include relevant keywords and meta descriptions for each landing page. Use best SEO practices and Landing page strategies to ensure high search engine rankings and closing.
+3. In each landing page, include a call-to-action (CTA) that encourages visitors to purchase the products. landing page should have a common layout and design for consistency.
+4. Landing Pages to create:
+- Landing Page untuk Dukungan Sistem Imun
+- Landing Page untuk Meredakan Pilek dan Flu
+- Landing Page untuk Kesehatan Kulit
+- Landing Page untuk Kesehatan Mulut
+- Landing Page untuk Meredakan Alergi
+- Landing Page untuk Penyembuhan Luka
+5. Only the first part of landing page is explaining how they can help with the problem, the rest is the same with other landing pages. testimonial, product showcase, CTA, and other things. You know the best.
+6. CTA will bring users to the checkout form, for now just a simple form with name, phone, address, and product quantity.
+1 botol @250.000
+3 botol @217.000
+5 botol @198.000
+10 botol @180.000
+also use rajaongkir API to calculate shipping cost based on address.
+https://rajaongkir.com/docs/shipping-cost/endpoint-rajaongkir-for-search-base/search-destination-rajaongkir
+
+when submitted, show mandiri bank transfer details for payment with 3 digit unique code, substract the total with the unique code for easier tracking.
